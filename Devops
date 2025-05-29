@@ -1,0 +1,12 @@
+gate way - service to create, monitor, publish, maintain and secure API
+public subnet - Free region
+public subnet - space to create an application, ...
+load balancer - add one or more back/front end (e.g: ec2, private/public IP address, ...)
+route table - set of rules to determine where info from gateway/load balancer should go(Network trafic)
+security groups - for security purpose
+NACL - define by default by default for any VM
+RLB - 
+NAT - 
+SNAT - 
+VPC - 
+VPC - flow role
