@@ -1,0 +1,7 @@
+cd - change directory
+cd .. - go back
+ls - liste
+mkdir - Make directory
+ls ltr - more info on the liste
+ssh -i path of the key pair/the key pair(e.g: test.pem)ubuntu@public IP address
+VI name of the Note - to create a new file (i - insert, :wq - save, cat name of the file - show the file)
