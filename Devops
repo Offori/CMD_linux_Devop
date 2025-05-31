@@ -1,12 +1,34 @@
-gate way - service to create, monitor, publish, maintain and secure API
+In AWS there are many layers where you can add security
+In AWS security is share responsability (SG, NACL + API, )
+
+gate way - service to create, monitor, publish, maintain and secure API and it's created by default
 public subnet - Free region
-public subnet - space to create an application, ...
-load balancer - add one or more back/front end (e.g: ec2, private/public IP address, ...)
-route table - set of rules to determine where info from gateway/load balancer should go(Network trafic)
+Private subnet - space to create an application, ..., Don't have access to internet
+load balancer - add one or more back/front end (e.g: ec2, private/public IP address, ...), can have access to IP address and provide info to subnet
+route table - set of rules to determine where info from gateway/load balancer should go(Network trafic) and created by default
 security groups - for security purpose
-NACL - define by default by default for any VM
+NACL(or ACLs) - define by default by default for any VM (Network access control list) used at the EC2 level
 RLB - 
-NAT - 
+NAT gateway- mask the IP address of an app i ec2 
 SNAT - 
 VPC - 
 VPC - flow role
+T + P <- Security Group + NACL[Access]
+In S G <- (inbound, outbound), 
+And in SG we can have only while in NACL we have allow and deny
+When an actor creates a PVC AWS creates an internet gate way, a NACL, and a route table additionaly u can create an ec2 instance and atouch the SG to it then we will play a configuration with NACL ane SG and see ho the route trafics goes through the application in ec2 like wht will happen if I block something in NACL and Allow it in SG, ...
+python3 to check if python is installed and go on its editer
+CTRL + D <- quit python3 editer
+EC2 provides compute as a service
+Bostian host(or instance) rhe madiator between the private subnet and public subnet
+path_of_key_pair/test.pem path_of_key_pair/test.pem ubuntu@public IP address:/home/ubuntu - to copy the key value pair to from my personal laptop to the ubuntu ec2 aws instance which mostly is the bostion instance
+ssh -i keypair copied from personal laptop to the bostion ubuntu@public_IP_address (NB: before lunching first check of ur on the right path where the keypair is install)
+if you lunch it and u get the warning message unpprotected private key file and says the 0664 ur_key_pair is too open then change the mode by typping in the terminal/.. chmod 600
+
+ROUTE 53
+Route 53 provides DNS as a service
+DNS <- Domain Name System and it resolve ur domain name to the load balancer or into IP Address
+Domain registration
+whenever you purchased and hosted your domain outside AWS you have to create a hosted zone in route 53 of aws 
+health check - chaeck the activity of the web server
+
