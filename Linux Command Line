@@ -1,0 +1,28 @@
+ls list
+ls -ltr list with the time stamp
+man the manual (e.g man touch)
+vi notepad
+vim notepad but need to install it
+#!/bin/bash
+executable bash sh ksh dash
+#!/ named shebang
+cat print the content of the file
+./ or sh execute an executable (need to grant permission)
+chmod grant permission to a file (what permission for the admin, which group, what are your permission) 
+      permission is grant via numbers(e.g chmod 777 nameofthefile [you just grant all the permission]) 
+      the categorization is made this way first 7 for myself, 7 for my group, 7 for everyone
+      4 read, 2 write, 1 execute
+pwd present working directory
+mkdir make a directory
+cd change directory
+rm -rf remove folder
+rm remove file
+
+in organization most of the time we use linux with shell scripting to maintain the infratructur, code structur and the configuration management as a devop ingeneer
+
+shell scripting
+  one of the key idea of writing a shell scripting is monitoring your task (CPU going off, momry too slow, load helth, ...)
+nproc list the cpu on your machine
+free knowing the memories on your machine
+top the top process that are running on ur machine
+df available storage space
