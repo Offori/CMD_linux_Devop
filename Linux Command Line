@@ -42,3 +42,160 @@ set -e exit the script when there is an error
 set -o 
 if an app is failing go tothe log file to find the error
 curl retreive resourse from internet
+
+
+    1  wich aws
+    2  which aws
+    3  ls
+    4  cls
+    5  clear
+    6  pwd
+    7  ls
+    8  touch pundle
+    9  ls
+   10  cd pundle
+   11  clear
+   12  mkdir pundle
+   13  ls
+   14  cd pundle
+   15  mkdir pundl
+   16  ls
+   17  cd pundl
+   18  cd ..
+   19  ls -ltr
+   20  vi
+   21  ls
+   22  ls -ltr
+   23  cat test
+   24  free -g
+   25  nproc
+   26  df -h
+   27  top
+   28  ls -ltr
+   29  vi test
+   30  cat test
+   31  touch first-shell-script.sh
+   32  ls
+   33  man touch
+   34  sudo apt-get update
+   35  sudo apt update
+   36  man sudo
+   37  sudo apt-get install vim
+   38  vim first-shell-script.sh
+   39  main touch
+   40  man touch
+   41  vim first-shell-script.sh
+   42  touch second-shell-script.sh
+   43  vim second-shell-script.sh
+   44  cat first-shell-script.sh
+   45  sh first-shell-script.sh
+   46  ./ first-shell-script.sh
+   47  ./first-shell-script.sh
+   48  man chmod
+   49  chmod 777 first-shell-script.sh
+   50  ./first-shell-script.sh
+   51  history
+   52  clear
+   53  man pwd
+   54  ls
+   55  cd test
+   56  cd pundl
+   57  cd ..
+   58  nproc
+   59  free
+   60  top
+   61  ps -ef | grep "amazon"
+   62  ls
+   63  cd shell_script/
+   64  touch test
+   65  touch test.sh
+   66  vim test.sh
+   67  chmod 777 test.sh
+   68  ./test.sh | grep 1
+   69  ps -ef
+   70  ps -ef | grep amazon
+   71  ps -ef | grep amazon | awk F" " '{print $2}'
+   72  ps -ef | grep amazon | -awk F" " '{print $2}'
+   73  ps -ef | grep amazon | awk -F" " '{print $2}'
+   74  cls
+   75  clear
+   76  cd test
+   77  ls
+   78  cd shell_script/
+   79  cat test
+   80  ls
+   81  cat test.sh
+   82  grep name test
+   83  grep 1 test
+   84  grep 1 test.sh
+   85  grep 4 test.sh
+   86  vim nodeHealth.sh
+   87  curl https://github.com/iam-veeramalla/sandbox/blob/main/log/dummylog01122022.log
+   88  clear
+   89  curl https://github.com/iam-veeramalla/sandbox/blob/main/log/dummylog01122022.log | grep error
+   90  curl https://github.com/iam-veeramalla/sandbox/blob/main/log/dummylog01122022.log | grep ERROR
+   91  ls
+   92  mkdir shell_script
+   93  cd shell_script/
+   94  touch nodeHealth.sh
+   95  vim nodeHealth.sh
+   96  cat nodeHealth.sh
+   97  chmod 777 nodeHealth.sh
+   98  ./nodeHealth.sh
+   99  vim nodeHealth.sh
+  100  ./nodeHealth.sh
+  101  vim nodeHealth.sh
+  102  ./nodeHealth.sh
+  103  ps -ef
+  104  ls
+  105  cd she
+  106  cd shell_script/
+  107  sudo find / name pam
+  108  q
+  109  sudo find / -name pam
+  110  vim ifels_example
+  111  cat ifels_example
+  112  vim ifels_example.sh
+  113  chmod 777 ifels_example.sh
+  114  ./ifels_example.sh
+  115  vim aws_resource_tracker.sh
+  116  chmod 777 aws_resource_tracker.sh
+  117  ./aws_resource_tracker.sh
+  118  ./aws_resource_tracker.sh
+  119  cat aws_resource_tracker.sh
+  120  sudo apt update
+  121  aws -v
+  122  sudo apt install awscli -y
+  123  aws -v
+  124  aws configure
+  125  sudo snap install aws-cli
+  126  sudo apt  install awscli
+
+Install aws cli
+--------------------------------------------------------------------------------------------
+  127  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  128  unzip awscliv2.zip
+  129  sudo apt install unzip -y
+  130  unzip awscliv2.zip
+  131  sudo ./aws/install/
+  132  sudo ./aws/install
+  134  aws --v
+--------------------------------------------------------------------------------------------
+
+  136  cat aws_resource_tracker.sh
+  137  ./aws_resource_tracker.sh
+  138  aws configure
+  139  ./ifels_example.sh
+  140  ls
+  141  ./aws_resource_tracker.sh
+  142  vim aws_resource_tracker.sh
+  143  ./aws_resource_tracker.sh
+  144  ./aws_resource_tracker.sh | more
+  145  aws ec2 describe-instances
+  146  aws ec2 describe-instances | jq '.Reservations[].Instances.[].BlockDeviceMappings.ebs'
+  147  aws ec2 describe-instances | jq '.Reservations[].Instances.[].BlockDeviceMappings.VolumeId'
+  148  aws ec2 describe-instances | jq '.Reservations[].Instances.[].BlockDeviceMappings.DeviceName'
+  149  aws ec2 describe-instances | jq '.Reservations[].Instances[].BlockDeviceMappings[].DeviceName'
+  150  vim aws_resource_tracker.sh
+  151  ./aws_resource_tracker.sh
+  152  vim aws_resource_tracker.sh
