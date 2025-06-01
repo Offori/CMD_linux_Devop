@@ -26,3 +26,19 @@ nproc list the cpu on your machine
 free knowing the memories on your machine
 top the top process that are running on ur machine
 df available storage space
+set -x debug mode
+ps -ef entire process as a full format
+      grep to filter process (e.g: ps -ef | grep "amazon")
+pipe (|) send the output of the first command to the next one
+
+why is date | echo "this" print this only? because date is default system command taht send info to stdin but pipe will never get the info from stdin
+wget to download the content as a file (need cat name of the file | grep ERROR)
+sudo find -name pam finad all the file with name pam into the intire system 
+
+signals ctrl is one of the signal
+trap 
+awk process scanning (to retreive the column info e.g: ps -ef | grep amazon awk F" " '{print $2}')
+set -e exit the script when there is an error
+set -o 
+if an app is failing go tothe log file to find the error
+curl retreive resourse from internet
