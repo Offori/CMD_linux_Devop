@@ -199,3 +199,17 @@ Install aws cli
   150  vim aws_resource_tracker.sh
   151  ./aws_resource_tracker.sh
   152  vim aws_resource_tracker.sh
+
+git clone https://github.com/iam-veeramalla/shell-scripting-projects.git
+    2  ls
+    3  cd shell-scripting-projects/
+    4  ls
+    5  cd github-api/
+    6  ls
+    7  cat list-users.sh
+    8  traceroute google.com
+    9  sudo apt intall traceroute
+   10  sudo apt install inetutils-traceroute
+   11  traceroute google.com
+   12  tracepath
+   13  history
